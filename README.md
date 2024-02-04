@@ -408,7 +408,7 @@ arch-home      UUID=<uuid>    /secure/home_keyfile.bin
 Reload linux
 
 ```
-$ mkinitcpio -l linux
+$ mkinitcpio -p linux
 ```
 
 ## Grub
