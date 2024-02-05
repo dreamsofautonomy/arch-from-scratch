@@ -555,14 +555,12 @@ For intel
 pacman -S intel-ucode
 ```
 
+## Reboot
+
 ```
 grub-mkconfig -o /boot/grub/grub.cfg
 grub-mkconfig -o /boot/efi/EFI/arch/grub.cfg
 ```
-
-
-## Reboot
-
 ```
 exit
 umount -R /mnt
