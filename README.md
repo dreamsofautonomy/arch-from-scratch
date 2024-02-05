@@ -541,7 +541,7 @@ systemctl enable gdm
 ```
 
 
-### Microcode
+### Microcode (optional - optimazation)
 
 For AMD
 
