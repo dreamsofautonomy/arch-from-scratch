@@ -333,7 +333,7 @@ $ grub-install --efi-directory=/boot/efi
 obtain your lvm partition device UUID
 
 ```
-lsblk /dev/nvme0n1p3
+blkid /dev/nvme0n1p3
 ```
 
 Copy this to your clipboard
