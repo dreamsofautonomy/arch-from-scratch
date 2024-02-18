@@ -135,8 +135,8 @@ $ pvcreate /dev/mapper/luks_lvm
 $ vgcreate arch /dev/mapper/luks_lvm
 ```
 
-Create a volume for your swap space. A good size for this is your disk space + 2GB.
-In my case 66G.
+Create a volume for your swap space. A good size for this is your RAM size + 2GB.
+In my case, 64GB of RAM + 2GB = 66G.
 
 ```
 $ lvcreate -n swap -L 66G arch
