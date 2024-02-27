@@ -11,7 +11,7 @@ $ iwctl
 When inside, check for the name of your wireless devices.
 
 ```
-devices list
+device list
 ```
 
 If your device name is wlan0, connect using the following command
