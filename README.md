@@ -310,10 +310,10 @@ add `encrypt` and `lvm2` into the hooks
 HOOKS=(... block encrypt lvm2 filesystems fsck)
 ```
 
-install lvm2
+install lvm2 and main interface for btrfs filesystem operations
 
 ```
-$ pacman -S lvm2
+$ pacman -S lvm2 btrfs-progs
 ```
 
 ### Bootloader
