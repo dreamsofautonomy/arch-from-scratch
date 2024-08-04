@@ -89,6 +89,8 @@ follows.
 |-----------|--------------|-------------|------|
 | 1         | default      | default     | 8302 |
 
+Write the data using the `w` command.
+
 ## Encryption
 
 Load the encryption modules to be safe.
